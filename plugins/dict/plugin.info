@@ -1,0 +1,10 @@
+{
+    "title": "$:/plugins/tobibeer/dict",
+    "description": "display acronyms and definitions from dictionaries",
+    "author": "Tobias Beer",
+    "version": "0.5.0",
+    "core-version": ">=5.1.9",
+    "source": "$:/plugins/tobibeer/tw5-dict",
+    "plugin-type": "plugin",
+	"list": "readme config dictionary"
+}

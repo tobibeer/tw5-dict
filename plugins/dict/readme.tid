@@ -1,0 +1,15 @@
+title: $:/plugins/tobibeer/dict/readme
+
+Acronyms and definitions can be...
+
+; defined inline
+: `<<? term definition>>` => <<? term definition>>
+; fetched from text-references
+: `<<? term at:"!!somefield">>`
+; read from dictionary tiddlers
+: `<<? term>>` => <<? term>>
+: `<<? term dict:somedict>>`
+; displayed with alternative text
+: `<<? term as:Term>>`
+; displayed via custom template macros
+: `<<? term via:?dl>>`

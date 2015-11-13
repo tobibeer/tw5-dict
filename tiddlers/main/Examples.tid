@@ -1,0 +1,51 @@
+created: 20151113102649550
+creator: Tobias Beer
+modified: 20151113152022625
+modifier: Tobias Beer
+some-field: from field named 'some-field'
+tags: 
+title: Examples
+type: text/vnd.tiddlywiki
+
+''from default dictionary''
+
+`<<? term>>`
+
+> <<? term>>
+
+''from default dictionary. with custom  title''
+
+`<<? term as:Term>>`
+
+> <<? term as:Term>>
+
+''defined inline''
+
+`<<? term "inline definition">>`
+
+> <<? term "inline definition">>
+
+
+''defined at field `some-field`'' (see <<tw TextReference "text references">>)
+
+ `<<? term at:"!!some-field">>`
+
+> <<? term at:"!!some-field">>
+
+''defined at field `some-field`, with custom title''
+
+`<<? term at:"!!some-field" as:Term>>`
+
+> <<? term at:"!!some-field" as:Term>>
+
+''from dictionary where field `dict` is set to `default`''
+
+`<<? term dict:default>>`
+
+> <<? term dict:default>>
+
+''using a custom template macro `?dl` to output a definition list''
+
+`<<? term via:?dl>>`
+
+> <<? term via:?dl>>

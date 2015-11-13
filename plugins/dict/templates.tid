@@ -1,0 +1,13 @@
+title: $:/plugins/tobibeer/dict/templates
+tags: $:/tags/Macro
+
+\define ?abbr(dt,dd)
+<abbr title="""$dd$""">$dt$</abbr>
+\end
+
+\define ?dl(dt,dd)
+<dl>
+<dt>$dt$</dt>
+<dd>$dd$</dd>
+</dl>
+\end

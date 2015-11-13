@@ -1,0 +1,34 @@
+title: $:/plugins/tobibeer/dict/macro
+tags: $:/tags/Macro
+
+\define ?via(dt,dd)
+<$set name="template" filter="$(via)$ " emptyValue={{$:/plugins/tobibeer/dict/config/template}}>
+<$macrocall $name=<<template>> dt="""$dt$""" dd="""$dd$"""/>
+</$set>
+\end
+\define ?fromdict()
+<$macrocall $name="?via" dt=<<title>> dd={{$(currentTiddler)$##$(index)$}}/>
+\end
+\define ?(title, text, at, dict, as, via)
+<$set name="title" filter="$as$ " emptyValue="$title$">
+<$set name="via" value="$via$">
+<$reveal type="nomatch" text="" default="$text$">
+<$macrocall $name="?via" dd="""$text$""" dt=<<title>>/>
+</$reveal>
+<$reveal type="match" text="" default="$text$">
+<$reveal type="nomatch" text="" default="$at$">
+<$macrocall $name="?via" dd={{$at$}} dt=<<title>>/>
+</$reveal>
+<$reveal type="match" text="" default="$at$">
+<$set name="dict" filter="$dict$ " emptyValue="default">
+<$list filter="[all[tiddlers+shadows]field:dict<dict>limit[1]]">
+<$vars index="$title$">
+<<?fromdict>>
+</$vars>
+</$list>
+</$set>
+</$reveal>
+</$reveal>
+</$set>
+</$set>
+\end

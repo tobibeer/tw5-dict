@@ -1,0 +1,16 @@
+created: 20151113120554224
+creator: Tobias Beer
+list-after: $:/core/ui/ViewTemplate/body
+modified: 20151113154736731
+modifier: Tobias Beer
+tags: $:/tags/TopLeftBar
+title: $:/.dict/ui/ViewTemplate/menu
+type: text/vnd.tiddlywiki
+
+<div class="main-menu">
+<$list filter="[list[Welcome!!menu]]" variable="item">
+<$tiddler tiddler=<<item>>>
+<$link><$view field="caption"><$view field="title"/></$view></$link>
+</$tiddler>
+</$list>
+</div>

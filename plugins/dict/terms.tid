@@ -1,0 +1,5 @@
+title: $:/plugins/tobibeer/dict/terms
+type: application/x-tiddler-dictionary
+dict: default
+
+term: definition, read from $:/plugins/tobibeer/dict/terms

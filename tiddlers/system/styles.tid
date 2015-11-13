@@ -1,0 +1,41 @@
+created: 20151113130603176
+modified: 20151113155324627
+tags: $:/tags/Stylesheet
+title: $:/.dict/styles
+type: text/vnd.tiddlywiki
+
+.dict-terms {
+width:100%;
+min-height:100px;
+}
+
+.tc-topbar-left{
+background:<<colour page-background>>;
+padding:5px 0 10px 0;
+top:0;
+width:100%;
+}
+
+.main-menu {
+margin: 0 0 0 2em;
+}
+
+.main-menu .tc-tiddlylink {
+margin-right:5px;
+font-size:1.2em;
+color: #666;
+}
+
+@media (max-width:960px) {
+.tc-topbar-left {
+position:relative !important;
+left:0;
+}
+.tc-topbar-left .main-menu{
+margin:0;
+padding:7px 14px;
+}
+.tc-sidebar-header {
+    padding-top: 0;
+}
+}

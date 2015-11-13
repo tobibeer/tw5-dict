@@ -1,0 +1,7 @@
+title: $:/plugins/tobibeer/dict/config
+
+Default template macro:
+
+<$edit-text tag="input" tiddler="$:/plugins/tobibeer/dict/config/template"/>
+
+See: $:/plugins/tobibeer/dict/templates

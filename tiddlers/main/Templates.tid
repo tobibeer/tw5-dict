@@ -1,0 +1,20 @@
+created: 20151113121003077
+creator: Tobias Beer
+modified: 20151113153401068
+modifier: Tobias Beer
+title: Templates
+type: text/vnd.tiddlywiki
+
+Templates define how a definition for a term is displayed, by default using the html ''&lt;abbr&gt;'' element, e.g.:
+
+`<abbr title="some info">hover me</abbr>`
+
+> <abbr title="some info">hover me</abbr>
+
+Templates for ''dict'' must be specified as global macros accepting the following two parameters:
+
+; dt
+: the term
+; dd
+: the definition
+

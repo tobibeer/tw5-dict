@@ -1,0 +1,30 @@
+created: 20151113121218374
+creator: Tobias Beer
+modified: 20151113151830240
+modifier: Tobias Beer
+title: Dictionaries
+type: text/vnd.tiddlywiki
+
+You can fetch definitions for terms and acronyms from <<tw DictionaryTiddlers>>. These are tiddlers of ''type'' `application/x-tiddler-dictionary`.
+
+The dict plugin ships with a default dictionary at [[$:/plugins/tobibeer/dict/dictionary]]:
+
+{{$:/plugins/tobibeer/dict/dictionary}}
+
+This dictionary is the default dictionary by virtue of having the field ''dict'' set to `default`.
+
+You can use it to specify all your dictionary entries and then display them simply as:
+
+`<<? term>>`
+
+> <<? term>>
+
+To read from another dictionary, use the `dict` parameter:
+
+`<<? term dict:default>>`
+
+> <<? term dict:default>>
+
+The above retrieves the definition for `term` from a dictionary tiddler where the field ''dict'' is set to `default`.
+
+&raquo;  [[more examples|Examples]]
