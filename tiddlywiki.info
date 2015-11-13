@@ -11,7 +11,7 @@
     ],
     "build": {
         "index": [
-            "--output","C:/GIT/tobibeer.github.io/tw/plugins/dict",
+            "--output","./",
             "--rendertiddler","$:/plugins/tiddlywiki/tiddlyweb/save/offline","index.html","text/plain"
         ]
     }
