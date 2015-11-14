@@ -7,22 +7,22 @@ tags: $:/tags/Macro
 </$set>
 \end
 \define ?fromdict()
-<$macrocall $name="?via" dt=<<title>> dd={{$(currentTiddler)$##$(index)$}}/>
+<$macrocall $name="?via" dt=<<term>> dd={{$(currentTiddler)$##$(index)$}}/>
 \end
-\define ?(title, text, at, dict, as, via)
-<$set name="title" filter="$as$ " emptyValue="$title$">
+\define ?(term, def, at, dict, as, via)
+<$set name="term" filter="$as$ " emptyValue="$term$">
 <$set name="via" value="$via$">
-<$reveal type="nomatch" text="" default="$text$">
-<$macrocall $name="?via" dd="""$text$""" dt=<<title>>/>
+<$reveal type="nomatch" text="" default="$def$">
+<$macrocall $name="?via" dd="""$def$""" dt=<<term>>/>
 </$reveal>
-<$reveal type="match" text="" default="$text$">
+<$reveal type="match" text="" default="$def$">
 <$reveal type="nomatch" text="" default="$at$">
-<$macrocall $name="?via" dd={{$at$}} dt=<<title>>/>
+<$macrocall $name="?via" dd={{$at$}} dt=<<term>>/>
 </$reveal>
 <$reveal type="match" text="" default="$at$">
 <$set name="dict" filter="$dict$ " emptyValue="default">
 <$list filter="[all[tiddlers+shadows]field:dict<dict>limit[1]]">
-<$vars index="$title$">
+<$vars index="$term$">
 <<?fromdict>>
 </$vars>
 </$list>

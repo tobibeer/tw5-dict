@@ -3,7 +3,7 @@ title: $:/plugins/tobibeer/dict/readme
 ; docs
 : http://tobibeer.github.io/tw5-dict
 
-Acronyms and definitions can be...
+Definitions for terms such as acronyms can be...
 
 ; defined inline
 : `<<? term definition>>` => <<? term definition>>

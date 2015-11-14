@@ -2,7 +2,7 @@
     "title": "$:/plugins/tobibeer/dict",
     "description": "display acronyms and definitions from dictionaries",
     "author": "Tobias Beer",
-    "version": "0.5.0",
+    "version": "0.5.1",
     "core-version": ">=5.1.9",
     "source": "$:/plugins/tobibeer/tw5-dict",
     "plugin-type": "plugin",
