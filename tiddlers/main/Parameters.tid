@@ -1,0 +1,14 @@
+created: 20151114181758912
+modified: 20151114182945210
+title: Parameters
+type: text/vnd.tiddlywiki
+
+The ''&lt;&lt;?&gt;&gt;'' macro provides the following parameters...
+
+|!# |!Parameter |!Description |
+| 1 |''term''|the term to be displayed and perhaps looked up in a ''dict''ionary<br>without further parameters, will be looked up in the default [[dictionary|Dictionaries]]|
+| 2 |''def''|a text defining the ''term''|
+| 3 |''at''|a text reference from where to fetch the definition to be used instead of ''def''|
+| 4 |''dict''|a dictionary from which to fetch the definition for the ''term'', see [[Dictionaries]]|
+| 5 |''as''|an alternative text to be displayed for a given ''term'', e.g. a "pretty title"|
+| 6 |''via''|a macro to be used as a template for the output, see [[Templates]]|

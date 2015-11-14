@@ -1,0 +1,12 @@
+created: 20151114183346608
+creator: Tobias Beer
+modified: 20151114183601380
+title: Versions
+type: text/vnd.tiddlywiki
+
+!!Change Log
+
+; 0.5.1 / 2015-11-14
+: renamed params to ''term'', ''def'', ''at'', ''dict'', ''as'', ''via''
+; 0.5.0 / 2015-11-13
+: initial release with all of these params: ''title'', ''text'', ''at'', ''dict'', ''as'', ''via''

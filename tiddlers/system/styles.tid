@@ -1,5 +1,6 @@
 created: 20151113130603176
-modified: 20151113155324627
+creator: Tobias Beer
+modified: 20151114184135510
 tags: $:/tags/Stylesheet
 title: $:/.dict/styles
 type: text/vnd.tiddlywiki
@@ -18,6 +19,15 @@ width:100%;
 
 .main-menu {
 margin: 0 0 0 2em;
+}
+
+.main-menu .divider:after{
+content:"|";
+color:#ddd;
+}
+
+.main-menu .divider:last-child{
+display:none;
 }
 
 .main-menu .tc-tiddlylink {
