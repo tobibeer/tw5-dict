@@ -2,3 +2,5 @@
 .c9/
 tmp/
 output/
+**/StoryList.tid
+tiddlers/system/StoryList.tid

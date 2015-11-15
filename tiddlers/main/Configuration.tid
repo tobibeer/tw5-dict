@@ -1,6 +1,6 @@
 created: 20151113120806292
 creator: Tobias Beer
-modified: 20151113153819378
+modified: 20151115182711480
 modifier: Tobias Beer
 title: Configuration
 type: text/vnd.tiddlywiki
@@ -10,16 +10,4 @@ You can specify a [[default template macro|Templates]] at:
 ; [[$:/plugins/tobibeer/dict/config/template]]
 : <$edit-text tiddler="$:/plugins/tobibeer/dict/config/template" tag="input"/>
 
-Preconfigured [[template macros|Templates]] are provided in:
-
-[[$:/plugins/tobibeer/dict/templates]]
-
-This is what their output looks like:
-
-''?abbr''
-
-> <<? term>>
-
-''?dl''
-
-> <<? term via:?dl>>
+[[Available macro templates and working with them...|Templates]]

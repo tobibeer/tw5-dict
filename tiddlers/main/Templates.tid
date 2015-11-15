@@ -1,6 +1,6 @@
 created: 20151113121003077
 creator: Tobias Beer
-modified: 20151113153401068
+modified: 20151115182847689
 modifier: Tobias Beer
 title: Templates
 type: text/vnd.tiddlywiki
@@ -11,10 +11,19 @@ Templates define how a definition for a term is displayed, by default using the 
 
 > <abbr title="some info">hover me</abbr>
 
-Templates for ''dict'' must be specified as global macros accepting the following two parameters:
+Templates for ''dict'' are specified as global macros accepting the following parameters:
 
-; dt
-: the term
-; dd
-: the definition
+# ''dt'' — the term
+# ''dd'' — the definition
 
+Preconfigured [[template macros|Templates]] are provided in: [[$:/plugins/tobibeer/dict/templates]]
+
+This is what their output looks like:
+
+''?abbr''
+
+> <<? term>>
+
+''?dl''
+
+> <<? term via:?dl>>
