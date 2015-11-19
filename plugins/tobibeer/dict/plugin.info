@@ -2,9 +2,9 @@
     "title": "$:/plugins/tobibeer/dict",
     "description": "display acronyms and definitions from dictionaries",
     "author": "Tobias Beer",
-    "version": "0.5.1",
+    "version": "0.6.0",
     "core-version": ">=5.1.9",
     "source": "$:/plugins/tobibeer/tw5-dict",
     "plugin-type": "plugin",
-	"list": "readme config dictionary"
+	"list": "readme dictionary config"
 }

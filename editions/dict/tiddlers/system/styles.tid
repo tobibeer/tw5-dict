@@ -5,11 +5,6 @@ tags: $:/tags/Stylesheet
 title: $:/.dict/styles
 type: text/vnd.tiddlywiki
 
-.dict-terms {
-width:100%;
-min-height:100px;
-}
-
 .tc-topbar-left{
 background:<<colour page-background>>;
 padding:5px 0 10px 0;

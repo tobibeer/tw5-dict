@@ -1,0 +1,7 @@
+title: $:/plugins/tobibeer/dict/dictionary
+
+Default dicitonary:
+
+<$edit-text class="dict-terms"
+tiddler="$:/plugins/tobibeer/dict/terms"/>
+<style>.dict-terms {width:100%;min-height:100px;}</style>

@@ -1,11 +1,13 @@
 created: 20151114183346608
 creator: Tobias Beer
-modified: 20151114183601380
+modified: 20151119132935108
 title: Versions
 type: text/vnd.tiddlywiki
 
 !!Change Log
 
+; 0.6.0 / 2015-11-19
+: reorganized repo, modifications to ''plugin.info'' and ''dictionary'' tab in control panel
 ; 0.5.1 / 2015-11-14
 : renamed params to ''term'', ''def'', ''at'', ''dict'', ''as'', ''via''
 ; 0.5.0 / 2015-11-13

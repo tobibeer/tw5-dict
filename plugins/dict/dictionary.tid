@@ -1,6 +1,0 @@
-title: $:/plugins/tobibeer/dict/dictionary
-
-Default dicitonary:
-
-<$edit-text class="dict-terms"
-tiddler="$:/plugins/tobibeer/dict/terms"/>
