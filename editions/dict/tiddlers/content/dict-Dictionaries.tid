@@ -1,8 +1,8 @@
 created: 20151113121218374
 creator: Tobias Beer
-modified: 20151113151830240
+modified: 20151123100610743
 modifier: Tobias Beer
-title: Dictionaries
+title: dict-Dictionaries
 type: text/vnd.tiddlywiki
 
 You can fetch definitions for terms and acronyms from <<tw DictionaryTiddlers>>. These are tiddlers of ''type'' `application/x-tiddler-dictionary`.

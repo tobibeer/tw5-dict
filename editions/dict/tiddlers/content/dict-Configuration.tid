@@ -1,13 +1,13 @@
 created: 20151113120806292
 creator: Tobias Beer
-modified: 20151115182711480
+modified: 20151123101031797
 modifier: Tobias Beer
-title: Configuration
+title: dict-Configuration
 type: text/vnd.tiddlywiki
 
-You can specify a [[default template macro|Templates]] at:
+You can specify a [[default template macro|dict-Templates]] at:
 
 ; [[$:/plugins/tobibeer/dict/config/template]]
 : <$edit-text tiddler="$:/plugins/tobibeer/dict/config/template" tag="input"/>
 
-[[Available macro templates and working with them...|Templates]]
+[[Available macro templates and working with them...|dict-Templates]]

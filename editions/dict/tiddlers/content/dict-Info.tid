@@ -1,0 +1,13 @@
+created: 20151123083410507
+creator: Tobias Beer
+modified: 20151123101957916
+modifier: Tobias Beer
+title: dict-Info
+type: text/vnd.tiddlywiki
+
+The plugin $:/plugins/tobibeer/dict provides:
+
+; &lt;&lt;?>>
+: a macro to display a definition for a term / acronym, optionally fetched form a dictionary 
+
+<<plugin-docs-cp dict>>

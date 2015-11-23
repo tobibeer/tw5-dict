@@ -1,8 +1,8 @@
 created: 20151113121003077
 creator: Tobias Beer
-modified: 20151115182847689
+modified: 20151123100624448
 modifier: Tobias Beer
-title: Templates
+title: dict-Templates
 type: text/vnd.tiddlywiki
 
 Templates define how a definition for a term is displayed, by default using the html ''&lt;abbr&gt;'' element, e.g.:
@@ -16,7 +16,7 @@ Templates for ''dict'' are specified as global macros accepting the following pa
 # ''dt'' — the term
 # ''dd'' — the definition
 
-Preconfigured [[template macros|Templates]] are provided in: [[$:/plugins/tobibeer/dict/templates]]
+Preconfigured template macros are provided in: [[$:/plugins/tobibeer/dict/templates]]
 
 This is what their output looks like:
 
