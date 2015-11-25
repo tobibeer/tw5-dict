@@ -5,8 +5,6 @@ modifier: Tobias Beer
 title: dict-Versions
 type: text/vnd.tiddlywiki
 
-!!Change Log
-
 ; 0.6.0 / 2015-11-19
 : reorganized repo, modifications to ''plugin.info'' and ''dictionary'' tab in control panel
 ; 0.5.1 / 2015-11-14
