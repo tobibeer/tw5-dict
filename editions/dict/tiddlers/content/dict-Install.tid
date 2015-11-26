@@ -1,9 +1,8 @@
-created: 20151114183346608
-creator: Tobias Beer
-modified: 20151123100556037
-modifier: Tobias Beer
-title: dict-Versions
-type: text/vnd.tiddlywiki
+title: dict-Install
+
+<<plugin-install dict>>
+
+!! Version History
 
 ; 0.6.0 / 2015-11-19
 : reorganized repo, modifications to ''plugin.info'' and ''dictionary'' tab in control panel
