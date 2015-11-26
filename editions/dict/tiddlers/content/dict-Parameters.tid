@@ -1,6 +1,6 @@
 created: 20151114181758912
 creator: Tobias Beer
-modified: 20151123100753197
+modified: 20151126215851876
 modifier: Tobias Beer
 title: dict-Parameters
 type: text/vnd.tiddlywiki
@@ -13,4 +13,4 @@ The ''&lt;&lt;?&gt;&gt;'' macro provides the following parameters:
 | 3 |''at''|a text reference from where to fetch the definition to be used instead of ''def''|
 | 4 |''dict''|a dictionary from which to fetch the definition for the ''term'', see [[Dictionaries|dict-Dictionaries]]|
 | 5 |''as''|an alternative text to be displayed for a given ''term'', e.g. a "pretty title"|
-| 6 |''via''|a macro to be used as a template for the output, see [[Templates||dict-Templates]]|
+| 6 |''via''|a macro to be used as a template for the output, see [[Templates|dict-Templates]]|

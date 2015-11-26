@@ -1,6 +1,6 @@
 created: 20151113121218374
 creator: Tobias Beer
-modified: 20151123100610743
+modified: 20151126215712683
 modifier: Tobias Beer
 title: dict-Dictionaries
 type: text/vnd.tiddlywiki
@@ -27,4 +27,4 @@ To read from another dictionary, use the `dict` parameter:
 
 The above retrieves the definition for `term` from a dictionary tiddler where the field ''dict'' is set to `default`.
 
-&raquo;  [[more examples|Examples]]
+&raquo;  [[more examples|dict-Examples]]
