@@ -7,7 +7,7 @@ type: text/vnd.tiddlywiki
 
 You can fetch definitions for terms and acronyms from <<tw DictionaryTiddlers>>. These are tiddlers of ''type'' `application/x-tiddler-dictionary`.
 
-The dict plugin ships with a default dictionary at [[$:/plugins/tobibeer/dict/dictionary]]:
+The dict plugin ships with a default dictionary at [[$:/plugins/tobibeer/dict/terms]]:
 
 {{$:/plugins/tobibeer/dict/dictionary}}
 
