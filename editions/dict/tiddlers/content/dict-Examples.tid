@@ -1,9 +1,10 @@
 created: 20151113102649550
 creator: Tobias Beer
-modified: 20151123100603231
+modified: 20160107111906316
 modifier: Tobias Beer
 some-field: from field named 'some-field'
-tags: 
+summary: examples for the [[dict]] macro
+tags: dict Examples
 title: dict-Examples
 type: text/vnd.tiddlywiki
 
